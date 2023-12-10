@@ -1,0 +1,77 @@
+.chatPage{
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatContainer{
+    background-color: azure;
+    height: 60%;
+    width: 50%;
+}
+.header{
+    background-color: crimson;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.header>h1{
+    color: white;
+    margin: 2vmax;
+}
+.header>a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vmax;
+    color: white;
+    margin: 2vmax;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.header>a:hover{
+    transform: scale(1.3);
+}
+.chatBox{
+    border: 0.2vmax solid rgb(54, 51, 51);
+    
+    height: 70%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.inputBox{
+    
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chatInput{
+    width:80%;
+    height: 3vmax;
+    border: 0.2vmax solid white;
+    outline: none;
+    font-size: 1.2vmax;
+    box-sizing: border-box;
+
+}
+.inputbtn{
+    width:20%;
+    height: 3vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 1vmax;
+    color: white;
+    background-color: crimson;
+    font-family: "Roboto";
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.inputbtn:hover{
+    background-color: rgb(157, 18, 46);
+}
